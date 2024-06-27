@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Aleo', serif;
+}
+
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#Apresentação {
+    text-align: center;
+}
+
+#Apresentação h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#Apresentação img {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+#Apresentação p {
+    margin-bottom: 10px;
+}
+
+#Apresentação a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#Educação {
+    margin-top: 40px;
+}
+
+#Educação h2 {
+    margin-bottom: 20px;
+}
+
+#Educação div {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#Educação p {
+    margin-bottom: 0;
+}
+
+#Certificações {
+    margin-top: 40px;
+}
+
+#Certificações h2 {
+    margin-bottom: 20px;
+}
+
+#Certificações li {
+    margin-bottom: 10px;
+}
+
+#Experiência {
+    margin-top: 40px;
+}
+
+#Experiência h2 {
+    margin-bottom: 20px;
+}
+
+#Experiência div {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#Experiência p {
+    margin-bottom: 0;
+}
+
+#Habilidades-Técnicas {
+    margin-top: 40px;
+}
+
+#Habilidades-Técnicas h2 {
+    margin-bottom: 20px;
+}
+
+#Habilidades-Técnicas ul {
+    list-style: none;
+    padding: 0;
+}
+
+#Habilidades-Técnicas li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+#Rodapé {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#Rodapé ul {
+    list-style: none;
+    padding: 0;
+}
+
+#Rodapé li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#Rodapé a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#Navegação {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#Navegação nav {
+    display: inline-block;
+}
+
+#Navegação ul {
+    list-style: none;
+    padding: 0;
+}
+
+#Navegação li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#Navegação a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#Navegação nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 10;
+}
+
+#Navegação ul {
+    padding: 10px;
+}
+
+#Navegação li {
+    display: inline;
+}
+
+@media screen and (max-width: 728px) {
+    #Navegação li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
